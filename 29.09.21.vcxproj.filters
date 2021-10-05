@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Headers">
+      <UniqueIdentifier>{ef4a6e73-8208-435a-95d0-5e6619e28c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Memory">
+      <UniqueIdentifier>{efb63edb-ac49-48cf-afa8-4fd1a284f633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Features">
+      <UniqueIdentifier>{6ba8ed89-8b0b-4754-b415-2828633186f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Interface">
+      <UniqueIdentifier>{01b86f79-3ceb-48a6-9b63-3856e1f0cdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Entity">
+      <UniqueIdentifier>{bc7690ab-0ae7-408d-b323-24c7279b7e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Server">
+      <UniqueIdentifier>{9dd09494-7edd-4f2f-8a85-e3fb7b2865eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="29.09.21.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcMem.cpp">
+      <Filter>Исходные файлы\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="m_vars.cpp">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="bhop.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleInterface.cpp">
+      <Filter>Исходные файлы\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Исходные файлы\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="radar.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="server_thread.cpp">
+      <Filter>Исходные файлы\Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m_headers.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcMem.h">
+      <Filter>Исходные файлы\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="m_vars.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Исходные файлы\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bhop.h">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleInterface.h">
+      <Filter>Исходные файлы\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Исходные файлы\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="_httplib.h">
+      <Filter>Исходные файлы\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="_server.h">
+      <Filter>Исходные файлы\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Исходные файлы\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="server_thread.h">
+      <Filter>Исходные файлы\Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
